@@ -12,3 +12,4 @@ while b > a:
     a = a + c
 
 print("Khushi is the best!")
+print("Khushi")
