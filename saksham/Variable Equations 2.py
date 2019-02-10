@@ -22,11 +22,13 @@ print("Your equation is: " + str(coeff) + "x" + " " + str(operation) + " " + str
 
 #Making a nested loop to find values
 
-for var1 in range (-20, 21):
-    for var2 in range (-20, 21):
+for var1 in range (-40, 41):
+    for var2 in range (-40, 41):
 
 #Making a substitution system
         
+        var1 = var1 / 2
+        var2 = var2 / 2
         endvar1 = coeff * var1
         endvar2 = coeff2 * var2
         endnum = endnum * 2
@@ -43,7 +45,7 @@ for var1 in range (-20, 21):
             equation = endvar1/endvar2
         if operation == "^":
             equation = endvar1^endvar2
-        displaycoor = "(" + str(var1) + "," + str(var2) + ") "
+        displaycoor = "(" + str(var1) + "," + str(var2) + ")"
         if equation == endnum:
             print(displaycoor)
             z = 1
