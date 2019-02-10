@@ -6,7 +6,7 @@ print("Following code is using range. Khushi :D ")
 for x in range(a,b,c):
     print(x)
 
-print("Following code is using while. ")
+print("Following code is using whilessaksham. ")
 while b > a:
     print(a)
     a = a + c
