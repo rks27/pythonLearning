@@ -2,7 +2,7 @@ a = int(input("What number do you want to start with? "))
 b = int(input("What number do you want to end with? "))
 c = int(input("What is the interval? "))
 
-print("Following code is using range. ")
+print("Following code is using range. Khushi :D ")
 for x in range(a,b,c):
     print(x)
 
