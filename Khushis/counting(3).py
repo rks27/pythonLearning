@@ -10,4 +10,5 @@ print("Following code is using whilessaksham. ")
 while b > a:
     print(a)
     a = a + c
-    
+
+print("Khushi")
